@@ -12,5 +12,3 @@ export const fromSTDIn = () => {
   })
   return observable;
 }
-
-fromSTDIn().subscribe(console.log)
